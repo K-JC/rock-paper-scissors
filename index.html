@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <!--google fonts and font awesome-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
-    <link rel="stylesheet" href="https://kit.fontawesome.com/aa8c119590.js" crossorigin="anonymous">
+    
     <title>Rock Paper Scissors</title>
 </head>
 <body>
@@ -16,29 +15,23 @@
 
     <div class="game-box">
         <div class="button-control">
-            <button aria-label="rock" data-choice="0">Rock</button>
-            <button aria-label="paper" data-choice="1">Paper</button>
-            <button aria-label="scissors" data-choice="2">Scissors
-            </button>
+            <button aria-label="rock" data-choice="0"><i class="fa-regular fa-hand-back-fist"></i></button>
+            <button aria-label="paper" data-choice="1"><i class="fa-regular fa-hand"></i></button>
+            <button aria-label="scissors" data-choice="2"><i class="fa-regular fa-hand-scissors"></i></button>
             
         </div>
 
         <div id="result-message">
         </div>
-    </div>
 
-    <div>
-    <div id="player-one">PLAYER IMAGE
-    </div>
-
-    <div id="computer"> COMPUTER IMAGE</div>
     </div>
 
     <div class="result-area">
-        <h3 class="the-result">Your Score:</h3>
-        <h3 class="the-result">Computer Score:</h3>
+        <h3 class="the-result" id="your-score">Your Score: 0</h3>
+        <h3 class="the-result" id="computer-score">Computer Score: 0</h3>
     </div>
 
     <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/aa8c119590.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,45 @@
+body {
+    font-family: poppins, sans-serif;
+    padding: 0;
+    margin: 0;  
+    background-color: violet;
+    font-size: 150%;
+}
+
+h1 {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.game-box {
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: antiquewhite;
+    font-size: 170%;
+    padding: 30px;
+    margin-bottom: 60px;
+    border: 6px solid #000000;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+button:hover {
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+#your-score {
+    text-align: center;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+#computer-score {
+    text-align: center;
+    margin-top: 30px;
+}
