@@ -28,3 +28,11 @@ function game() {
     
     game();
     
+/***
+ * player choice function choice between rock,paper,scissors
+ */
+function startGame(playerChoice) {
+    const computerResult = computersChoice();
+    }
+
+    startGame('rock');
