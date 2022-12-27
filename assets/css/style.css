@@ -11,7 +11,7 @@ h1 {
     text-align: center;
 }
 
-.game-box {
+.buttoncontrols {
     width: 75%;
     text-align: center;
     margin-left: auto;
@@ -26,11 +26,14 @@ button {
     border: 6px solid #000000;
     border-radius: 30px;
     margin: 20px;
+    cursor: pointer;
 }
 
 button:hover {
     color: blueviolet;
     border-color: blueviolet;
+    transform: scale(1.1);
+
 }
 
 #your-score {
