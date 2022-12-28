@@ -67,7 +67,7 @@ function theComputersChoice() {
     return choices[randomNum];
 }
  /**
-  * functions for win loose and draw messages
+  * functions for win loose and draw and screen messages
   */
 
  function win() {
@@ -78,10 +78,12 @@ function theComputersChoice() {
  }
 
  function lose() {
+ theComputerScore++;
+ computerScore.innerHTML = theComputerScore;
+ thePlayerScore.innerHTML = playerScore;
  resultMessage.innerHTML = "Oh no, the computer won this round!"
  }
 
  function draw() {
-    console.log('awwwh man it is a draw!');
-    resultMessage.innerHTML = "Awwh man a draw!";
+    resultMessage.innerHTML = "It's a draw!";
  }
