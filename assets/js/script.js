@@ -18,15 +18,15 @@ let theComputerScore = 0;
 function game() {
     rockChoice.addEventListener('click', function(){
         startGame('rock');
-    })
+    });
     
     paperChoice.addEventListener('click', function(){
         startGame('paper');
-    })
+    });
     
     scissorsChoice.addEventListener('click', function(){
         startGame('scissors');
-    })
+    });
     }
     
     game();
@@ -81,7 +81,7 @@ function theComputersChoice() {
  theComputerScore++;
  computerScore.innerHTML = theComputerScore;
  thePlayerScore.innerHTML = playerScore;
- resultMessage.innerHTML = "Oh no, the computer won this round!"
+ resultMessage.innerHTML = "Oh no, the computer won this round!";
  }
 
  function draw() {
