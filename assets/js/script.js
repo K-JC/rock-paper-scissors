@@ -36,3 +36,13 @@ function startGame(playerChoice) {
     }
 
     startGame('rock');
+
+ /**
+ * computer choice function, random number between 1 and 3
+*/
+
+function computersChoice() {
+    const choices = ['rock', 'paper', 'scissors'];
+    const randomNum = Math.floor(Math.random() * 3);
+    return choices[randomNum];
+}
