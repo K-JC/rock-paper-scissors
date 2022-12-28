@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="description" content="A website for a rock paper scissors game">
+    <meta name="keywords" content="rock, paper, scissors, game"> 
 
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
     
     <title>Rock Paper Scissors</title>
@@ -15,21 +17,20 @@
 
     <div class="buttoncontrols">
         <div>
-            <button class="buttons" id="rock" ><i class="fa-regular fa-hand-back-fist"></i></button>
-            <button class="buttons" id="paper"><i class="fa-regular fa-hand"></i></button>
-            <button class="buttons" id="scissors"><i class="fa-regular fa-hand-scissors"></i></button>
-            
+            <button class="buttons" aria-label="rock-button" id="rock"><i class="fa-regular fa-hand-back-fist"></i></button>
+            <button class="buttons" aria-label="paper-button" id="paper"><i class="fa-regular fa-hand"></i></button>
+            <button class="buttons" aria-label="scissors-button" id="scissors"><i class="fa-regular fa-hand-scissors"></i></button>
         </div>
 
         <div>
-            <p id="result-message">Lets go!</p>
+            <h2 id="result-message">Lets go!</h2>
         </div>
 
     </div>
 
     <div class="result-area">
-        <h3 class="the-result">Your Score: <span id="your-score">0</span></h3>
-        <h3 class="the-result">Computer Score: <span id="computer-score">0</span></h3>
+        <h3>Your Score: <span id="your-score">0</span></h3>
+        <h3>Computer Score: <span id="computer-score">0</span></h3>
     </div>
 
     <script src="assets/js/script.js"></script>
