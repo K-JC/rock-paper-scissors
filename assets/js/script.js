@@ -8,6 +8,9 @@ const resultMessage = document.getElementById('result-message');
 const rockChoice = document.getElementById('rock');
 const paperChoice = document.getElementById('paper');
 const scissorsChoice = document.getElementById('scissors');
+let thePlayerScore = 0;
+let theComputerScore = 0;
+
 /**
  * create a function with event listener to listen for click of all buttons
  */
@@ -37,17 +40,17 @@ function startGame(playerChoice) {
         case 'rockscissors':
         case 'scissorspaper':
         case 'paperrock':
-        console.log('You win yay!'); 
+            win();
         break;
         case 'scissorsrock':
         case 'paperscissors':
         case 'rockpaper':
-            console.log('oh no the computer wins this time!');
+            lose();
              break; 
             case 'rockrock':
             case 'paperpaper':
             case 'scissorsscissors':
-                console.log('awwh man it is a draw!');
+                draw();
                   break; 
     }
     }
@@ -63,3 +66,20 @@ function theComputersChoice() {
     const randomNum = Math.floor(Math.random() * 3);
     return choices[randomNum];
 }
+ /**
+  * functions for win loose and draw messages
+  */
+
+ function win() {
+    thePlayerScore++;
+    playerScore.innerHTML = thePlayerScore;
+    theComputerScore = computerScore;
+ }
+
+ function lose() {
+ console.log('oh no the computer won!');
+ }
+
+ function draw() {
+    console.log('awwwh man it is a draw!');
+ }
