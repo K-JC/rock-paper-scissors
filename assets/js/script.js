@@ -2,7 +2,7 @@
  * create variables for elements from the DOM
 */
 
-const playerScore = document.getElementById('player-score');
+const playerScore = document.getElementById('your-score');
 const computerScore = document.getElementById('computer-score');
 const resultMessage = document.getElementById('result-message');
 const rockChoice = document.getElementById('rock');
@@ -73,13 +73,15 @@ function theComputersChoice() {
  function win() {
     thePlayerScore++;
     playerScore.innerHTML = thePlayerScore;
-    theComputerScore = computerScore;
+    theComputerScore.innerHTML = computerScore;
+    resultMessage.innerHTML = "You won this round!";
  }
 
  function lose() {
- console.log('oh no the computer won!');
+ resultMessage.innerHTML = "Oh no, the computer won this round!"
  }
 
  function draw() {
     console.log('awwwh man it is a draw!');
+    resultMessage.innerHTML = "Awwh man a draw!";
  }
