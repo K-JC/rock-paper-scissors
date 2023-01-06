@@ -49,3 +49,25 @@ h3 {
     text-align: center;
     margin-top: 50px;
 }
+
+/*medium screen sizes from 767px down*/
+@media screen and (max-width: 767px) {
+
+    .buttons{
+    
+         margin-left: -20px;
+    }
+            
+    }
+
+/*small screen sizes from 480px down*/
+@media screen and (max-width: 480px) {
+
+.buttons{
+
+     margin-left: -5px;
+     left: -20px;
+     margin-right: -5px;
+     padding: 15px;
+}    
+}

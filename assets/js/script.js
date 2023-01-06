@@ -16,7 +16,7 @@ let theComputerScore = 0;
  */
 
 function game() {
-    rockChoice.addEventListener('click', function(){
+     rockChoice.addEventListener('click', function(){
         startGame('rock');
     });
     
@@ -41,17 +41,17 @@ function startGame(playerChoice) {
         case 'scissorspaper':
         case 'paperrock':
             win();
-        break;
-        case 'scissorsrock':
-        case 'paperscissors':
-        case 'rockpaper':
-            lose();
-             break; 
-            case 'rockrock':
-            case 'paperpaper':
-            case 'scissorsscissors':
+            break;
+            case 'scissorsrock':
+            case 'paperscissors':
+            case 'rockpaper':
+                lose();
+                break; 
+                case 'rockrock':
+                case 'paperpaper':
+                case 'scissorsscissors':
                 draw();
-                  break; 
+                break; 
     }
     }
 

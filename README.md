@@ -1,5 +1,5 @@
 # Rock Paper Scissors
-For this project I have created a site for a rock paper scissors game. This is a user vs computer game and has a randomly generated result for each button press so that this is always a fair game.
+For this project I have created a site for a rock paper scissors game. This is a user vs computer game and has a randomly generated result for each button press so that this is always a fair game. The user can play a game of rock paper scissors with the computer and try to beat the computer.
  
 ![Screens](assets/images/screens.PNG)
  
@@ -22,7 +22,7 @@ The H2 heading is the message part of the game. At the start the message will sa
 ![Message](assets/images/message.PNG)
  
 ## The result area
-In this div there are two spans for the scores of either the user or the computer. Also have h3 heading to highlight the users score vs the computer's score text. This is laid out so it's easy to read and understand.
+In this div there are two spans for the scores of either the user or the computer. Also have h3 heading to highlight the users score vs the computer's score text. This is laid out so it's easy to read and understand. The user will understand what score they have and also see the computers score.
  
 ![Result area](assets/images/results-area.PNG)
  
