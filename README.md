@@ -73,7 +73,7 @@ No unfixed bugs
  
 # Deployment
 The site was deployed to GitHub pages, the steps to deploy are as follows. First I started in the GitHub repository and navigated to the settings tab. From the settings tab scroll down to the pages tab. From source select deploy from a branch, then from branch select main branch. Once selected click save. The page will now provide the link to the complete website.
-The live website link can be found here-[Rock Paper Scissors]()
+The live website link can be found here-[Rock Paper Scissors](https://8000-kjc-rockpaperscissor-4i5zgfwxuzc.ws-eu81.gitpod.io/)
  
 # Credits
  
